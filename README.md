@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # ttttttttttttttttttttt
 
@@ -92,3 +93,6 @@ Resolve the errors and warnings that are shown in the application.
 ### Support
 
 If you have problems or questions go to our Discord channel, we will then try to help you as quickly as possible: https://discord.com/invite/rFMnCG5MZ7
+=======
+# gsk_proj2
+>>>>>>> 0323eb62e430ed8cc5fa54d0990d74545ce6efc5
