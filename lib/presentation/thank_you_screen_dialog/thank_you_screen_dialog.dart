@@ -1,3 +1,5 @@
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+
 import 'controller/thank_you_screen_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:final_grad_proj/core/app_export.dart';
@@ -36,11 +38,11 @@ class ThankYouScreenDialog extends StatelessWidget {
                         Align(
                             alignment: Alignment.center,
                             child: Padding(
-                                padding: getPadding(all: 40),
+                                padding: EdgeInsets.all( 40),
                                 child: CommonImageView(
                                     svgPath: ImageConstant.imgThumbsup,
-                                    height: getVerticalSize(69.00),
-                                    width: getHorizontalSize(72.00))))
+                                    height: (69.00.h),
+                                    width: (72.00.w))))
                       ]))),
               Padding(
                   padding: getPadding(left: 20, top: 12, right: 20),

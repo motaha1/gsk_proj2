@@ -68,8 +68,8 @@ class AppDecoration {
   static BoxDecoration get outlineBluegray4001e => BoxDecoration(
         border: Border.all(
           color: ColorConstant.bluegray4001e,
-          width: getHorizontalSize(
-            1.00,
+          width: (
+            1.00.w
           ),
         ),
       );
@@ -129,8 +129,8 @@ class BorderRadiusStyle {
   );
 
   static BorderRadius roundedBorder6 = BorderRadius.circular(
-    getHorizontalSize(
-      6.00,
+   (
+      6.00.r
     ),
   );
 

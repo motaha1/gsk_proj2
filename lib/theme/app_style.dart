@@ -33,7 +33,7 @@ class AppStyle {
   static TextStyle txtRubikBold18 = TextStyle(
     color: ColorConstant.bluegray900,
     fontSize: getFontSize(
-      18,
+      18.sp,
     ),
     fontFamily: 'Rubik',
     fontWeight: FontWeight.w700,
@@ -96,7 +96,7 @@ class AppStyle {
   static TextStyle txtRubikMedium16 = TextStyle(
     color: ColorConstant.bluegray900,
     fontSize: getFontSize(
-      16,
+      16.sp,
     ),
     fontFamily: 'Rubik',
     fontWeight: FontWeight.w500,
